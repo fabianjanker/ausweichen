@@ -50,5 +50,5 @@ loops.everyInterval(100, function () {
     }
     basic.pause(Geschwindigkeit)
     Punkte += 1
-    Geschwindigkeit += -10
+    Geschwindigkeit += -3
 })
