@@ -15,3 +15,8 @@ input.onButtonEvent(Button.B, input.buttonEventClick(), function () {
 let Position = 0
 Position = 2
 led.plot(Position, 4)
+let HindernissZeile0 = 6
+let HindernissZeile1 = 6
+let HindernissZeile2 = 6
+let HindernissZeile3 = 6
+let HindernissZeile4 = 6
