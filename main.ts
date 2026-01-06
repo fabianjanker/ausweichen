@@ -36,4 +36,7 @@ loops.everyInterval(500, function () {
     led.plot(HindernissZeile2, 2)
     led.plot(HindernissZeile3, 3)
     led.plot(HindernissZeile4, 4)
+    if (Position == HindernissZeile4) {
+        music.play(music.tonePlayable(131, music.beat(BeatFraction.Whole)), music.PlaybackMode.UntilDone)
+    }
 })
